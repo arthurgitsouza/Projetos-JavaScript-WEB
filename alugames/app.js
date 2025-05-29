@@ -11,6 +11,6 @@ function alterarStatus(id) {
     } else {
         imagem.classList.add('dashboard__item__img--rented');
         botao.classList.add('dashboard__item__button--return');
-        botao.textContent = 'Devolver';
+        botao.textContent = 'Devolver'
     }
 }
